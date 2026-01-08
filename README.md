@@ -7,6 +7,7 @@ This repository contains C++ implementations of common algorithms used in compet
 - **dp/** - Dynamic Programming
   - `fib.cpp`: Implementation of the Fibonacci sequence using dynamic programming.
   - `longest-pallindromic-substring.cpp`: Find the longest palindromic substring.
+  - `subsequences.cpp`: Dynamic programming for subsequence problems.
 
 - **gp/** - Graph Problems
   - `bfs.cpp`: Breadth-First Search algorithm for graph traversal.
