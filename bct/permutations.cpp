@@ -35,7 +35,7 @@ vector<string>permutations(string p,string up){
     vector<string>ans;
 
     for(int i=0;i<=p.size();i++){
-
+ 
         string first = p.substr(0,i);
         string second = p.substr(i,p.size());
 
