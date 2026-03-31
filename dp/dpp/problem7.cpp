@@ -60,7 +60,7 @@ int uniquePathWithObstacles(vector<vector<int>>&grid){
     for(int i=0;i<n;i++){
 
         for(int j=0;j<m;j++){
-
+            //if there is obstacle
             if(grid[i][j] == 1){
                 dp[i][j] = 0;
                 continue;
